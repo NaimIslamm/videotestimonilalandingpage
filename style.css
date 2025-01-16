@@ -254,7 +254,13 @@ p {
 }
 
 .hero-btn {
-  background-image: var(--linear-gradient) !important;
+  color: #000000;
+  background: linear-gradient(
+    90deg,
+    rgba(218, 206, 255, 0) 0%,
+    #daceff 47.5%,
+    rgba(218, 206, 255, 0) 100%
+  );
 }
 .hero-1st-row h1 {
   max-width: 990px;
@@ -374,6 +380,16 @@ p {
   gap: 20px;
   padding: 50px 20px;
 }
+.works-main-btn {
+  color: #000000;
+  background: linear-gradient(
+    90deg,
+    rgba(218, 206, 255, 0) 0%,
+    #daceff 47.5%,
+    rgba(218, 206, 255, 0) 100%
+  );
+}
+
 .how-it-works-card {
   display: flex;
   justify-content: center;
@@ -439,6 +455,15 @@ p {
   justify-content: center;
   gap: 20px;
   width: 50%;
+}
+.why-choose-btn {
+  color: #000000;
+  background: linear-gradient(
+    90deg,
+    rgba(218, 206, 255, 0) 0%,
+    #daceff 47.5%,
+    rgba(218, 206, 255, 0) 100%
+  );
 }
 .handle-section-1st-row h2 {
   text-align: start;
@@ -675,6 +700,15 @@ p {
   justify-content: center;
   gap: 30px;
 }
+.faq-btn {
+  color: #000000;
+  background: linear-gradient(
+    90deg,
+    rgba(218, 206, 255, 0) 0%,
+    #daceff 47.5%,
+    rgba(218, 206, 255, 0) 100%
+  );
+}
 .faq-1st-row {
   display: flex;
   flex-direction: column;
@@ -789,7 +823,7 @@ p {
   }
 
   .btn {
-    font-size: 14px;
+    font-size: 13px;
     padding: 14px 16px;
   }
   .btn-small {
@@ -802,6 +836,10 @@ p {
   }
   .hero-section-inner {
     padding: 30px 20px;
+  }
+  .hero-section-inner::before {
+    left: -36px;
+    transform: translate(0);
   }
   .hero-box {
     width: 100%;
@@ -882,7 +920,7 @@ p {
     width: 100%;
   }
   .faq-2nd-row::after {
-    right: -20px;
+    right: -18px;
   }
   .faq-2nd-row::before {
     right: 0;
