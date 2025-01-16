@@ -556,14 +556,19 @@ p {
 }
 /* -------Started library-section------------ */
 .library-section-wrapper {
-  width: 1392px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.library-section-wrapper-inner {
+  width: 100%;
+  max-width: 1392px;
   background-color: var(--secondary-color);
-  /* padding: 0 20px; */
   border-radius: 40px;
   margin: 0 auto;
 }
 .library-section-inner {
-  width: 850px;
+  width: 100%;
+  max-width: 850px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -573,13 +578,14 @@ p {
   gap: 10px;
 }
 .library-section-inner p {
-  font-size: 24px;
+  /* font-size: 24px; */
   text-align: start;
   color: white;
   margin-top: 20px;
 }
 .library-section-inner h2 {
   color: white;
+  margin-bottom: 20px;
 }
 .library-card-section {
   display: flex;
@@ -587,6 +593,7 @@ p {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  margin: 30px 0;
 }
 .library-card {
   display: flex;
@@ -597,12 +604,11 @@ p {
   padding: 40px 30px;
   gap: 10px;
   width: 48%;
-  /* height: 280px; */
   border-radius: 30px;
+  align-self: stretch;
 }
 .library-card p {
   color: var(--p-text-color);
-  font-size: 22px;
   margin: 0;
 }
 .library-card img {
@@ -635,40 +641,45 @@ p {
 }
 .library-card-five {
   width: 100%;
-  height: 309px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 20px 40px;
 }
 .library-card-1st-row {
   width: 49%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  gap: 15px;
 }
 .library-card-1st-row p {
   font-size: 18px;
 }
 .library-card-2nd-row {
   width: 48%;
+  text-align: right;
 }
 .library-card-2nd-row img {
   width: 100%;
-  max-width: 335px;
+  max-width: 235px;
 }
 /* -------Ended library-section------------ */
 /* -------------------Started Get Started-Section------------- */
 .get-started-wrapper {
-  width: 1392px;
-  background-color: var(--primary-color);
   padding: 0 20px;
+}
+.get-started-wrapper-inner {
+  width: 100%;
+  max-width: 1392px;
+  background-color: var(--primary-color);
   border-radius: 40px;
   margin: 20px auto;
 }
 .get-started-inner {
-  width: 850px;
+  width: 100%;
+  max-width: 850px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -757,7 +768,11 @@ p {
 /* ---------------Ended FAQ-Section-------------- */
 /*-------Started Footer-Section------------- */
 .footer-wrapper {
-  width: 1392px;
+  padding: 0 20px;
+}
+.footer-wrapper-inner {
+  width: 100%;
+  max-width: 1392px;
   background-color: var(--secondary-color);
   border-radius: 40px;
   margin: 20px auto;
@@ -851,7 +866,7 @@ p {
   }
   .how-it-box {
     width: 100%;
-    padding: 30px 20px;
+    padding: 30px 20px 0px;
     flex-direction: column;
     height: 100%;
   }
@@ -882,7 +897,7 @@ p {
     right: -20px;
   }
   .card-two {
-    transform: translateX(0px);
+    transform: translateX(-15px);
   }
   .library-section-wrapper {
     width: 100%;
