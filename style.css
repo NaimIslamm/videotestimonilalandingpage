@@ -403,8 +403,9 @@ p {
   justify-content: space-between;
   align-items: center;
   background-color: white;
-  padding: 30px 10px 20px 50px;
+  padding: 30px 10px 30px 50px;
   border-radius: 40px;
+  gap: 20px;
   /* height: 445px; */
   align-self: stretch;
 }
@@ -431,7 +432,7 @@ p {
 }
 .how-it-box-three {
   width: 100%;
-  gap: 70px;
+  padding: 40px 40px;
 }
 .how-it-box-2nd-coloum {
   width: 50%;
@@ -439,7 +440,7 @@ p {
 }
 .how-it-box-2nd-coloum img {
   width: 100%;
-  max-width: 400px;
+  max-width: 300px;
 }
 /* ------------Ended How-it-Works-Section------------------- */
 /*------------------ Handle Section-------------------- */
@@ -763,11 +764,13 @@ p {
 } */
 
 .faq-accordian {
-  width: 580px;
+  width: 100%;
+  max-width: 580px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 50px;
+  gap: 20px;
   background-color: white;
   box-shadow: 0 5px 110px 0#2323230D;
   border-radius: 20px;
@@ -824,7 +827,7 @@ p {
   }
   h2 {
     font-size: 48px !important;
-    line-height: 40px !important;
+    line-height: 56px !important;
   }
   h3 {
     font-size: 42px !important;
@@ -897,6 +900,29 @@ p {
   .how-it-box-2nd-coloum {
     text-align: center;
   }
+  .handle-section-inner {
+    padding: 70px 20px;
+    gap: 50px;
+  }
+  .handle-section-1st-row h2 {
+    font-size: 40px !important;
+  }
+  .library-section-inner {
+    align-items: flex-start;
+    padding: 50px 20px;
+  }
+  .library-btn {
+    margin: 0 auto;
+  }
+  .faq-section-inner {
+    padding: 50px 20px;
+  }
+  .faq-accordian {
+    width: 375px;
+  }
+  .library-card h6 {
+    text-align: start;
+  }
 }
 @media screen and (max-width: 768px) {
   /*------------ common css------------- */
@@ -925,7 +951,7 @@ p {
     line-height: 30px !important;
   }
   p {
-    font-size: 14px !important;
+    font-size: 12px !important;
     line-height: 20px !important;
   }
 
@@ -952,13 +978,16 @@ p {
     width: 100%;
     height: 250px;
   }
+  .three-box {
+    height: 200px;
+  }
   .how-it-works-inner {
     padding: 20px;
     gap: 10px;
   }
   .how-it-box {
     width: 100%;
-    padding: 30px 20px 0px;
+    padding: 30px 20px 30px;
     flex-direction: column;
     height: 100%;
   }
@@ -972,12 +1001,19 @@ p {
     width: 100%;
     text-align: center;
   }
+  .how-it-box-2nd-coloum img {
+    max-width: 250px;
+  }
   .handle-section-inner {
     padding: 40px 20px;
     flex-direction: column;
+    gap: 30px;
   }
   .handle-section-1st-row {
     width: 100%;
+  }
+  .why-choose-btn {
+    margin: 0 auto;
   }
   .handle-section-2nd-row {
     width: 100%;
@@ -995,7 +1031,11 @@ p {
     width: 100%;
   }
   .library-section-inner {
+    padding: 40px 20px;
     width: 100%;
+  }
+  .library-section-inner p {
+    margin-top: 10px;
   }
   .library-card {
     width: 100%;
@@ -1024,6 +1064,7 @@ p {
     padding: 40px 20px;
   }
   .faq-accordian {
+    padding: 20px;
     width: 100%;
   }
   .faq-2nd-row::after {
