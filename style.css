@@ -971,7 +971,7 @@ p {
     padding: 30px 20px;
   }
   .hero-section-inner::before {
-    left: -36px;
+    left: -100px;
     transform: translate(0);
   }
   .hero-box {
